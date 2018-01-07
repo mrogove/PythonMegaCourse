@@ -20,6 +20,8 @@ def translate(w):
         return data[w]
     elif u in data: #could alternatively have used the str.title() function.
         return data[u]
+    elif w.upper() in data: #handle acronyms in all-caps.
+        return data[w.upper()]
     elif len(get_close_matches(w, data.keys())) > 0: #account for near-misses
         yn = input("Did you mean %s instead? Enter Y if yes, or N if no: " % get_close_matches(w, data.keys())[0]) #is this a duplicate call?
         if yn == "Y":
