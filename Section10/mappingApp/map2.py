@@ -31,4 +31,4 @@ fg.add_child(folium.GeoJson(data=open('world.json','r',encoding='utf-8-sig').rea
 
 
 map.add_child(fg)
-map.save("Map1.html")
+map.save("Map2.html")
