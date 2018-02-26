@@ -7,7 +7,7 @@ redirect="127.0.0.1"
 website_list=["www.facebook.com","facebook.com","www.reddit.com","reddit.com","www.twitch.tv","twitch.tv"]
 
 while True:
-    if dt(dt.now().year,dt.now().month,dt.now().day,18) > dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,21):
+    if dt(dt.now().year,dt.now().month,dt.now().day,17) > dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,21):
         print("Non-browsing hours...")
         with open(hosts_temp,'r+') as file:
             content=file.read()
