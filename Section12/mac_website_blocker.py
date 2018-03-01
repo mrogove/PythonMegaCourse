@@ -1,8 +1,8 @@
 import time
 from datetime import datetime as dt
 
-hosts_temp=r"\Users\mikerogove\Documents\GitHub\PythonMegaCourse\Section12\Hosts\hosts"
-hosts_path=r"C:\Windows\System32\drivers\etc\hosts"
+hosts_temp="/Users/mikerogove/Documents/GitHub/PythonMegaCourse/Section12/Hosts/hosts"
+hosts_path="/etc/hosts"
 redirect="127.0.0.1"
 website_list=["www.facebook.com"
 			 ,"facebook.com"
@@ -13,7 +13,8 @@ website_list=["www.facebook.com"
 			 ,"www.instagram.com"
 			 ,"instgram.com"
 			 ,"www.linkedin.com"
-			 ,"linkedin.com"]
+			 ,"linkedin.com"
+			 ]
 
 while True:
     if dt(dt.now().year,dt.now().month,dt.now().day,17) > dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,21):
