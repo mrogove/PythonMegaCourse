@@ -2,7 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  color: #060;
+  color: #217EA3;
+  background-image: url(https://i.imgur.com/2fnOhQB.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 55% 28%;
 }
 
 /*
@@ -10,7 +14,7 @@ body {
  */
 
 header {
-  background-color: #DFB887;
+  background-color: #31bbf7;
   height: 35px;
   width: 100%;
   opacity: .9;
