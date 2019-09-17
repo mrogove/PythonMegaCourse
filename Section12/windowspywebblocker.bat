@@ -1,0 +1,1 @@
+"C:\Users\mrogove\AppData\Local\Programs\Python\Python37-32\python.exe" "C:\Users\mrogove\Documents\GitHub\PythonMegaCourse\Section12\website_blocker.pyw"
