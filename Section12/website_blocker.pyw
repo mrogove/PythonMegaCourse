@@ -12,8 +12,7 @@ website_list=["www.facebook.com"
 			 ,"twitch.tv"
 			 ,"www.instagram.com"
 			 ,"instgram.com"
-			 ,"www.linkedin.com"
-			 ,"linkedin.com"]
+             ,"m.facebook.com"]
 
 while True:
     if dt(dt.now().year,dt.now().month,dt.now().day,17) > dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,21):
