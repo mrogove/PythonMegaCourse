@@ -11,7 +11,7 @@ website_list=["www.facebook.com"
 			 ,"www.twitch.tv"
 			 ,"twitch.tv"
 			 ,"www.instagram.com"
-			 ,"instgram.com"
+			 ,"instagram.com"
              ,"m.facebook.com"]
 
 while True:
